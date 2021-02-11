@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font: 13 Arial;
+}
+li {
+    background-color: aqua;
+}
+form {
+    background-color: aliceblue;
+    padding: 3px;
+    position: fixed;
+    margin-left: 10%;
+    bottom: 0;
+    width: 80%;
+}
+form input {
+    border: 0;
+    padding: 10px;
+    width: 90%;
+    margin-right: 0.5%;
+    border-radius: 5px;
+}
+form button {
+    width: 9%;
+    background: rgb(13, 207, 13);
+    border-radius: 5px;
+}
