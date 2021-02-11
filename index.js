@@ -10,8 +10,8 @@ app.get('/css', function(req,res){
     res.sendFile(__dirname + "/style.css");
 });
 
-http.listen(5000, function(){
-    console.log("localhost:3000");
+http.listen(3000, function(){
+    console.log("Listen");
 });
 
 io.on('connection', function(socket){
